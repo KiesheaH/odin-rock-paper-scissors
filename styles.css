@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+body {
+  background-color: #232526;
+  color: white;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+.game_info {
+  /* background-color: orangered; */
+  display: flex;
+  justify-content: space-between;
+  height: 20%;
+  width: 50%;
+  color: white;
+  margin-bottom: 130px;
+}
+
+.player_info,
+.computer_info {
+  /* border: 1px solid black; */
+  padding: 25px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.player_score,
+.computer_score {
+  font-size: 70px;
+  text-align: center;
+}
+
+.player_icon,
+.computer_icon {
+  border: 1px solid white;
+  padding: 50px;
+}
+
+.game_play {
+  /* background-color: blueviolet; */
+  height: 20%;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid white;
+  padding: 0px 30px;
+}
+
+.icon {
+  font-size: 80px;
+}
+
+.rock,
+.paper,
+.scissors {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+button {
+  padding: 5px;
+  font-size: 20px;
+}
+
+.reset button {
+  font-size: 25px;
+  padding: 5px 10px;
+}

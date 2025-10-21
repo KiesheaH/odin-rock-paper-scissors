@@ -3,10 +3,60 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <title>Rock, Paper, Scissors</title>
+    <script
+      src="https://kit.fontawesome.com/863bcda4a4.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <div class="game_info">
+      <!-- PLAYER SCORE -->
+
+      <div class="player_info">
+        <h2>Player</h2>
+        <p class="player_score">0</p>
+        <div class="player_icon">&nbsp;</div>
+      </div>
+
+      <!-- COMPUTER SCORE -->
+      <div class="computer_info">
+        <h2>Computer</h2>
+        <p class="computer_score">0</p>
+        <div class="computer_icon">&nbsp;</div>
+      </div>
+    </div>
+
+    <div class="game_play">
+      <!-- ROCK -->
+      <div class="rock">
+        <p class="icon">🪨</p>
+        <button class="btn-rock">Rock</button>
+      </div>
+
+      <!-- PAPER -->
+      <div class="paper">
+        <p class="icon">📄</p>
+        <button class="btn-paper">Paper</button>
+      </div>
+
+      <!-- SCISSORS -->
+      <div class="scissors">
+        <p class="icon">✂️</p>
+        <button class="btn-scissors">Scissors</button>
+      </div>
+    </div>
+
+    <div class="reset">
+      <button class="btn-reset">Reset</button>
+    </div>
     <script src="./script.js"></script>
   </body>
 </html>
