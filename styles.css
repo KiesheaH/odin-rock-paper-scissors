@@ -33,12 +33,12 @@ h2 {
 
 .player_info,
 .computer_info {
-  /* border: 1px solid black; */
   padding: 25px 50px;
   display: flex;
   flex-direction: column;
   gap: 20px;
   justify-content: space-between;
+  align-items: center;
 }
 
 .player_score,
@@ -47,14 +47,26 @@ h2 {
   text-align: center;
 }
 
-.player_icon,
-.computer_icon {
-  border: 1px solid white;
+.player_selection,
+.computer_selection,
+.results {
+  width: 200px;
+  height: 200px;
   padding: 50px;
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+}
+
+.results {
+  margin-top: 210px;
+  font-size: 60px;
+  border: none;
 }
 
 .game_play {
-  /* background-color: blueviolet; */
   height: 20%;
   width: 50%;
   display: flex;
@@ -67,9 +79,7 @@ h2 {
   font-size: 80px;
 }
 
-.rock,
-.paper,
-.scissors {
+.option {
   display: flex;
   flex-direction: column;
   gap: 15px;
